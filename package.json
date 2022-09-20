@@ -1,0 +1,22 @@
+{
+  "name": "typescript-discord-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript discord bot boilerplate",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js",
+    "build:start": "npx tsc && node build/index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Jensen Bollen",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "axios": "^0.26.0",
+    "discord-api-types": "^0.27.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "glob": "^7.2.0"
+  }
+}

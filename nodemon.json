@@ -1,0 +1,7 @@
+{
+    "watch": [ 
+      "src/*"
+    ],
+    "exec": "npx tsc && node build/index.js",
+    "ext": "ts"
+  }
